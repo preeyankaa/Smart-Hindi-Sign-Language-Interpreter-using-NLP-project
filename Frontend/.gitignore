@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Build output (if using a build tool like Webpack, Vite, etc.)
+dist/
+build/
+
+# Lock file (optional, depending on preference)
+# package-lock.json
+# (If you want to track package-lock.json, keep it; if not, uncomment the above)
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Dependency-related caches
+.pnpm-debug.log*
+.pnpm-store/
+
+# Tailwind/PostCSS generated files (if any)
+*.css.map
+
+# Bot folder (if it's not part of the main project)
+bot/

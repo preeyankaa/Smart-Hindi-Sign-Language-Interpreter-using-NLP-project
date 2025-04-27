@@ -1,0 +1,32 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+myenv/
+
+# Data folder (if it contains large or sensitive data)
+Data/
+
+# Model folder (if it contains large files like .h5)
+Model1/
+
+# Static and templates (keep these unless they contain large binaries)
+# (Exclude only if they have generated/large files)
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
