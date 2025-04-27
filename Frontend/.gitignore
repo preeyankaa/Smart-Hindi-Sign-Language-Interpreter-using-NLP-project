@@ -39,3 +39,5 @@ Thumbs.db
 
 # Bot folder (if it's not part of the main project)
 bot/
+
+.bolt
