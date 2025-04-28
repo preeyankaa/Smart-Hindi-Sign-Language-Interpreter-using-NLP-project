@@ -121,15 +121,20 @@ Ensure all dependencies are installed as per requirements.txt and package.json.
 
 
 ## Screenshots
+> Note: For privacy reasons, personal faces in some screenshots have been blurred or hidden intentionally.
 
-### Alphabet Detection
-*(Add screenshot here)*
+### Home Page (Light Mode)
+![Home Page](https://github.com/preeyankaa/Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/blob/master/screenshots/home_page.png)
 
-### Words Detection
-*(Add screenshot here)*
+### Dashboard
+![Dashboard](https://github.com/preeyankaa/Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/blob/master/screenshots/dashboard.png)
 
-### Frontend Home Page
-*(Add screenshot here)*
+### Alphabet Detection Output
+![Alphabet Detection](./Alphbet_detection.jpeg)
+
+### Words Detection Output
+![Words Detection](https://github.com/preeyankaa/Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/blob/master/screenshots/Words_detection.jpeg)
+
 
 
 ## Team
