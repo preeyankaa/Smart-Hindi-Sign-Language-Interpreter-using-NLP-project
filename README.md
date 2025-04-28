@@ -1,6 +1,6 @@
-# SignWave - Smart Hindi Sign Language Interpreter using NLP
+# 🤝 SignWave - Smart Hindi Sign Language Interpreter using NLP
 
-Welcome to **SignWave**, a cutting-edge 3D sign language interpreter designed to break communication barriers. This project enables real-time detection of sign language alphabets (A-Z, 1-9) and words in both English and Hindi, with an added feature of LLM-based sentence suggestions. Users can form words from detected alphabets and leverage our suite of tools to master Hindi sign language.
+Welcome to **SignWave**, a cutting-edge sign language interpreter designed to break communication barriers. This project enables real-time detection of sign language alphabets (A-Z, 1-9) and words in both English and Hindi, with an added feature of LLM-based sentence suggestions. Users can form words from detected alphabets and leverage our suite of tools to master Hindi sign language.
 
 ## Project Overview
 
@@ -67,6 +67,17 @@ Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/
 │   ├── app_word.py
 │   ├── datacollection.py
 │   └── test.py
+├── Document/
+│   └── Report.pdf
+├── Screenshots/
+│   ├── Alphabet_image.jpeg
+│   ├── Alphbet_detection.jpeg
+│   ├── Words_detection.jpeg
+│   ├── Words_image.jpeg
+│   ├── dashboard.png
+│   ├── home_page(dark).png
+│   └── home_page.png
+└── README.md
 ```
 
 ## Setup Instructions
