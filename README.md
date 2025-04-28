@@ -1,6 +1,6 @@
-# SignWave - Smart Hindi Sign Language Interpreter using NLP
+# 🤝 SignWave - Smart Hindi Sign Language Interpreter using NLP
 
-Welcome to **SignWave**, a cutting-edge 3D sign language interpreter designed to break communication barriers. This project enables real-time detection of sign language alphabets (A-Z, 1-9) and words in both English and Hindi, with an added feature of LLM-based sentence suggestions. Users can form words from detected alphabets and leverage our suite of tools to master Hindi sign language.
+Welcome to **SignWave**, a cutting-edge sign language interpreter designed to break communication barriers. This project enables real-time detection of sign language alphabets (A-Z, 1-9) and words in both English and Hindi, with an added feature of LLM-based sentence suggestions. Users can form words from detected alphabets and leverage our suite of tools to master Hindi sign language.
 
 ## Project Overview
 
@@ -15,7 +15,7 @@ This project was developed as a 1-year academic project during Semester 5 and 6 
 - **Real-time Alphabet Detection**: Identifies sign language alphabets (A-Z) and numbers (1-9) with support for English and Hindi. Users can form words by combining detected alphabets.
 - **Real-time Words Detection**: Recognizes 30 basic sign language words (e.g., "Love", "Thank You") in English and Hindi.
 - **Voice Icon Support**: Includes voice feedback for detected alphabets, numbers, and words in both English and Hindi.
-- **LLM-based Sentence Suggestion**: Leverages a language model to suggest sentences in both alphabet and words detection modes, enhancing communication.
+- **LLM-based Sentence Suggestion**: Leverages a language model to suggest sentences in words detection mode, enhancing communication.
 
 ## Dataset Details
 
@@ -67,6 +67,17 @@ Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/
 │   ├── app_word.py
 │   ├── datacollection.py
 │   └── test.py
+├── Document/
+│   └── Report.pdf
+├── Screenshots/
+│   ├── Alphabet_image.jpeg
+│   ├── Alphbet_detection.jpeg
+│   ├── Words_detection.jpeg
+│   ├── Words_image.jpeg
+│   ├── dashboard.png
+│   ├── home_page(dark).png
+│   └── home_page.png
+└── README.md
 ```
 
 ## Setup Instructions
@@ -128,9 +139,6 @@ Ensure all dependencies are installed as per requirements.txt and package.json.
 
 ### Dashboard
 ![Dashboard](https://github.com/preeyankaa/Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/blob/master/screenshots/dashboard.png)
-
-### Alphabet Detection Output
-![Alphabet Detection](./Alphbet_detection.jpeg)
 
 ### Words Detection Output
 ![Words Detection](https://github.com/preeyankaa/Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/blob/master/screenshots/Words_detection.jpeg)
