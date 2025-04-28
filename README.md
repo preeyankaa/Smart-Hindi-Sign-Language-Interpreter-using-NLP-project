@@ -114,7 +114,7 @@ Ensure all dependencies are installed as per requirements.txt and package.json.
 
 ## Usage
 
-- Access the frontend via the browser at `http://localhost:3000` (or as specified by the frontend build).
+- Access the frontend via the browser (as specified by the frontend build).
 - Use the webcam to perform real-time sign detection for alphabets (A-Z, 1-9) or words.
 - Click the voice icon to hear the detected alphabet, number, or word in English or Hindi.
 - View suggested sentences based on detected words or formed words from alphabets, powered by the LLM.
