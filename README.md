@@ -28,9 +28,130 @@ This project was developed as a 1-year academic project during Semester 5 and 6 
   - Contains 30 basic words: `Bye`, `Night`, `Afternoon`, `Morning`, `Eat`, `She`, `He`, `Pray`, `Work`, `Study`, `Truth`, `Small`, `Congratulations`, `Sleep`, `Water`, `Need`, `You`, `I`, `Good`, `Hate`, `Hello`, `Hurts a lot`, `I Love You`, `Love`, `Receive`, `Thank you`, `Call Me`, `Crime`, `Peace`, `Happy`, `Promise`.
   - Stored in `WordsDetection/Data/` (excluded in `.gitignore` due to large size).
 
+
+## Folder Structure
+
+```
+Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/
+├── AlphaBetDetection/
+│   ├── images/Data/
+│   ├── static/
+│   ├── templates/
+│   ├── .gitignore
+│   ├── ISL_classifier.ipynb
+│   ├── app.py
+│   ├── dataset_keypoint_generation.py
+│   ├── ISL_detection.py
+│   ├── keypoint.csv
+│   ├── requirements.txt
+│   └── model.h5
+├── Frontend/
+│   ├── public/
+│   ├── src/
+│   ├── .gitattributes
+│   ├── .gitignore
+│   ├── counter.js
+│   ├── index.html
+│   ├── javascript.svg
+│   ├── main.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── style.css
+│   └── tailwind.config.js
+├── WordsDetection/
+│   ├── Data/
+│   ├── static/
+│   ├── templates/
+│   ├── .gitignore
+│   ├── app_word.py
+│   ├── datacollection.py
+│   └── test.py
+```
+
+## Setup Instructions
+
 ### Prerequisites
 - Python 3.x
 - Node.js and npm
 - Git
 
 ### Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/preeyankaa/Smart-Hindi-Sign-Language-Interpreter-using-NLP-project.git
+   cd Smart-Hindi-Sign-Language-Interpreter-using-NLP-project
+   ```
+
+2. **Set Up AlphaBetDetection and WordsDetection**  
+Navigate to each directory:
+   ```bash
+   cd AlphaBetDetection
+   pip install -r requirements.txt
+   cd ../WordsDetection
+   # Install required packages manually
+   pip install tensorflow mediapipe cvzone opencv-contrib-python
+   ```
+
+3. **Run the applications:**
+   ```bash
+   python app.py  # For AlphaBetDetection
+   python app_word.py  # For WordsDetection
+   ```
+
+4. **Set Up Frontend**  
+Navigate to the Frontend directory:
+   ```bash
+   cd Frontend
+   npm install vite react react-dom
+   npm run dev
+   ```
+
+5. **Configure Environment**  
+Ensure all dependencies are installed as per requirements.txt and package.json.  
+
+
+## Usage
+
+- Access the frontend via the browser at `http://localhost:3000` (or as specified by the frontend build).
+- Use the webcam to perform real-time sign detection for alphabets (A-Z, 1-9) or words.
+- Click the voice icon to hear the detected alphabet, number, or word in English or Hindi.
+- View suggested sentences based on detected words or formed words from alphabets, powered by the LLM.
+
+
+## Screenshots
+
+### Alphabet Detection
+*(Add screenshot here)*
+
+### Words Detection
+*(Add screenshot here)*
+
+### Frontend Home Page
+*(Add screenshot here)*
+
+
+## Team
+
+This project was developed as part of our Semester 5 and 6 academic curriculum, spanning 1 year. We are a team of dedicated students passionate about leveraging technology to bridge communication gaps:
+
+- **[Priyanka Bhandari]** – Worked on Words and Alphabet Detection models along with their UI development.
+- **[Pratik Avhad]** – Responsible for Documentation and assisting in Data Collection and Creation.
+- **[Swarup Kakade]** – Developed the complete Frontend, integrated all modules, and added LLM-based sentence generation feature in Words Detection.
+
+
+## Contributing
+
+Contributions are welcome!  
+Please fork the repository and submit pull requests for any enhancements or bug fixes.
+
+
+## License
+
+© 2025 **SignWave**. All rights reserved.
+
+
+## Contact
+
+For any queries, reach out to **priyaka.224657201@vcet.edu.in**.
