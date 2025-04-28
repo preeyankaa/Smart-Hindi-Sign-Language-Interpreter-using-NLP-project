@@ -129,9 +129,6 @@ Ensure all dependencies are installed as per requirements.txt and package.json.
 ### Dashboard
 ![Dashboard](https://github.com/preeyankaa/Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/blob/master/screenshots/dashboard.png)
 
-### Alphabet Detection Output
-![Alphabet Detection](./Alphbet_detection.jpeg)
-
 ### Words Detection Output
 ![Words Detection](https://github.com/preeyankaa/Smart-Hindi-Sign-Language-Interpreter-using-NLP-project/blob/master/screenshots/Words_detection.jpeg)
 
