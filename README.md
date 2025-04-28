@@ -15,7 +15,7 @@ This project was developed as a 1-year academic project during Semester 5 and 6 
 - **Real-time Alphabet Detection**: Identifies sign language alphabets (A-Z) and numbers (1-9) with support for English and Hindi. Users can form words by combining detected alphabets.
 - **Real-time Words Detection**: Recognizes 30 basic sign language words (e.g., "Love", "Thank You") in English and Hindi.
 - **Voice Icon Support**: Includes voice feedback for detected alphabets, numbers, and words in both English and Hindi.
-- **LLM-based Sentence Suggestion**: Leverages a language model to suggest sentences in both alphabet and words detection modes, enhancing communication.
+- **LLM-based Sentence Suggestion**: Leverages a language model to suggest sentences in words detection mode, enhancing communication.
 
 ## Dataset Details
 
