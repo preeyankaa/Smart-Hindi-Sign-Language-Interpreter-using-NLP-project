@@ -4,7 +4,7 @@ Welcome to **SignWave**, a cutting-edge sign language interpreter designed to br
 
 ## Project Overview
 
-This project was developed as a 1-year academic project during Semester 5 and 6 by a team of students. It consists of three main components:
+This project was developed as a 1-year academic project during Semester 5 and 6 by my team. It consists of three main components:
 
 - **AlphaBetDetection**: Detects individual sign language alphabets (A-Z) and numbers (1-9) in real-time, trained on a dataset of 1000 images per character.
 - **WordsDetection**: Recognizes 30 basic sign language words and uses an LLM to suggest sentences based on detected words.
