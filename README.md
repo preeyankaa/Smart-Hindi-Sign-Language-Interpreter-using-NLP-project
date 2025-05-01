@@ -129,7 +129,7 @@ Navigate to the Frontend directory:
 Ensure all dependencies are installed as per requirements.txt and package.json.  
 
 
-## Usage
+## 🚀 Usage
 
 - Access the frontend via the browser (as specified by the frontend build).
 - Use the webcam to perform real-time sign detection for alphabets (A-Z, 1-9) or words.
